@@ -1,0 +1,40 @@
+body {
+	background-color: #1d3557;
+	font-family: "Poppins", sans-serif;
+   background-image: url("img/memphis.png");
+}
+
+header {
+	background-color: none;
+	position: sticky;
+   backdrop-filter: blur(5px);
+	top: 0;
+	z-index: 100;
+}
+
+/* .container {
+	border-bottom: 1px solid #457b9d;
+} */
+
+.cv {
+	background-color: #e63946;
+	border: 1px solid #e63946;
+	color: #f1faee;
+}
+.cv:hover {
+	background-color: #a8dadc;
+	border: 1px solid #a8dadc;
+	color: #1d3557;
+}
+
+.navbar-nav a {
+	text-decoration: none;
+	color: #f1faee;
+}
+.navbar-nav a:hover {
+	color: #e63946;
+}
+
+.intro {
+	padding-top: 150px;
+}
